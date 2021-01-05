@@ -34,21 +34,21 @@
         <main>
             <h1>SIGN UP</h1>
             
-            <form onsubmit="myFunction()" action="https://freecatphotoapp.com/submit-cat-photo">
+            <form>
                 <div class="email">
-                    <input type="email" required placeholder="Email" class="mail" name="fmail">
+                    <input id="mail" type="email" placeholder="Email" class="mail" name="fmail">
                 </div>
 
                 <div class="user">
-                    <input type="text" required placeholder="Username" class="username" name="fname">
+                    <input id="username" type="text" placeholder="Username" class="username" name="fname">
                 </div>
             
                 <div class="pass">
-                    <input type="text" required placeholder="Password" class="password" name="fpass">
+                    <input id="password" type="text" placeholder="Password" class="password" name="fpass">
                 </div>
+                <!-- <input  type="submit" value="SIGN UP" class="input"> -->
             </form>
-
-            <input  type="button" value="SIGN UP" class="input">
+            <button onclick="myFunction()">SIGN UP</button>
         </main>
 
         <footer>
@@ -56,7 +56,7 @@
             <a href="#">More Links</a>
         </footer>
 
-        <script src="postit_signup.js"></script>
+        <script src="./postit_signup.js"></script>
     </body>
 </html>
 
