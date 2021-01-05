@@ -75,9 +75,11 @@ main {
 }
 
 .msg {
-    display: block;
-    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20em;
 }
+
 .msg h1 {
     display: flex;
     justify-content: center;
@@ -116,9 +118,12 @@ main {
     font-size: 1.2em;
     border-radius: 5px;
     border: 0 solid gray;
-    margin-left: 100px;
-    margin-bottom: px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 7em;
+    margin-left: 2em;
     text-decoration: none;
+    text-align: center;
 }
 
 .msg a:hover {
@@ -133,11 +138,11 @@ footer {
 @media (max-width: 700px) {
     header {
         display: flex;
-        justify-content: center;   
+        justify-content: center;  
     }
 
     header h1 {
-        position: fixed;
+        position: absolute;
     }
 
     header a {
@@ -162,8 +167,14 @@ footer {
         justify-content: center;
     }
 
+    .msg {
+        margin: 1px;
+    }
+
     .msg h1{
         font-size: 1em;
+        display: flex;
+        justify-content: center;
     }
 
     .msg .id {
@@ -179,6 +190,11 @@ footer {
 
     .msg .msg2 {
         margin-left: 1em;
+    }
+
+    .msg a {
+        font-size: 1em;
+        
     }
 
 }
