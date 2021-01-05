@@ -102,7 +102,7 @@ main h1 {
     line-height: 3em;
 }
 
-main a {
+main .input {
     padding: 5px 20px;
     color: white;
     background-color: rgb(32, 49, 32);
@@ -112,7 +112,7 @@ main a {
     border-radius: 5px;
 }
 
-main a:hover {
+main .input:hover {
     background-color: green;
 }
 

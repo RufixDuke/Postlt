@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: cursive;
     font-weight: 400;
-    background-color: #fff;
+    background-color: #ddd;
     line-height: 1.8em;
 }
 
@@ -12,6 +12,11 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: green;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
 }
 
 .logo-container {
@@ -58,13 +63,14 @@ nav {
 }
 
 .pimg1 {
-    background-image: url(/img/post2.jpg);
+    background-image: url(./img/post2.jpg);
     height: 150vh;
 }
 
 .ptext {
     position: relative;
-    width: 100%;
+    width: 50%;
+    margin: auto;
     top: 200px;
     text-align: center;
     color: #000;
