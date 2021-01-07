@@ -74,6 +74,10 @@ main {
     margin-right: 1px;
 }
 
+.ms {
+    display: block;
+}
+
 .msg {
     display: flex;
     flex-direction: column;
@@ -108,7 +112,7 @@ main {
     outline: 0;
 }
 
-.msg a {
+button {
     padding: 5px;
     color: white;
     background-color: rgb(32, 49, 32);
@@ -124,7 +128,7 @@ main {
     text-align: center;
 }
 
-.msg a:hover {
+button:hover {
     background-color: green;
 }
 

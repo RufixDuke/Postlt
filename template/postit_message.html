@@ -16,7 +16,7 @@
         <header>
             <h1>POSTIT</h1>
 
-            <a href="homepage.html">LOGOUT</a>
+            <a href="./postit_homepage.html">LOGOUT</a>
         </header>
 
         <main>
@@ -30,16 +30,18 @@
                 </ol>
             </div>
 
-            <div class="msg">
-                <h1>Send Broadcast Message</h1>
+            <div class="ms">
+                <div class="msg">
+                    <h1>Send Broadcast Message</h1>
 
-                <input type="text" placeholder="Group ID" class="id">
+                    <input type="text" placeholder="Group ID" class="id">
 
-                <h2>Message</h2>
+                    <h2>Message</h2>
                 
-                <textarea class="msg2" name="msg" rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+                    <textarea class="msg2" id="msg2" name="msg" rows="4" cols="50" placeholder="Enter Text Here"></textarea>    
+                </div>
 
-                <a href="#" class="btn">SEND MESSAGE</a>
+                <button onclick="messagePage()">SEND MESSAGE</button>
             </div>
 
             
@@ -48,4 +50,6 @@
         <footer>
             <p>@ 2021 Andela, Inc</p>
         </footer>
+
+        <script src="./postit_.js"></script>
     </body>
