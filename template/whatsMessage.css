@@ -229,6 +229,7 @@ header {
     position: fixed;
     top: 93%;
     margin-left: 20px;
+    width: 100%;
 }
 
 .footer .input {
@@ -244,6 +245,8 @@ header {
     background-color: #0f181d;
     color: white;
     outline: 0;
+    width: 50%;
+
 }
 
 .fa-grin,
@@ -255,8 +258,7 @@ header {
 }
 
 .fa-microphone {
-    display: flex;
-    justify-content: flex-end;
+    float: right;
 }
 
 
