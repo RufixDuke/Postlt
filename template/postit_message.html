@@ -12,7 +12,7 @@
 		<title>PostIt | Send Message</title>
     </head>
 
-    <body>
+    <body onload="contacts()">
         <header>
             <h1>POSTIT</h1>
 
@@ -23,10 +23,8 @@
             <div class="name">
                 <h1>Your Group List</h1>
                 
-                <ol>
-                    <li><a href="#">Qion</a></li>
-                    <li><a href="#">Mikky</a></li>    
-                    <li><a href="#">Damilare</a></li>    
+                <ol id="arr">
+                        
                 </ol>
             </div>
 
@@ -34,11 +32,13 @@
                 <div class="msg">
                     <h1>Send Broadcast Message</h1>
 
-                    <input type="text" placeholder="Group ID" class="id">
+                    <input type="text" placeholder="Group ID" class="id" id="id">
 
                     <h2>Message</h2>
                 
-                    <textarea class="msg2" id="msg2" name="msg" rows="4" cols="50" placeholder="Enter Text Here"></textarea>    
+                    <textarea class="msg2" id="msg2" name="msg" rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+                    
+                    <p id="pmph"></p>
                 </div>
 
                 <button onclick="messagePage()">SEND MESSAGE</button>
